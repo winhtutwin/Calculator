@@ -1,0 +1,30 @@
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e3eb;
+}
+.display{
+    height:60px;
+    width:100%;
+    outline:none;
+    text-align:right;
+    margin-bottom:10px;
+    font-size:25px;
+}
+.buttons{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.buttons button{
+    padding:10px;
+    border:none;
+    font-size:20px;
+    cursor: pointer;
+    background-color: #eee;
+}
+.buttons button:active{
+    transform: scale(0.9);
+}
